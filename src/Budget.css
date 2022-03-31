@@ -1,0 +1,46 @@
+.budget-container {
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 14px 7px #b5b5b5;
+    height: 70%;
+}
+
+.app-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myapp-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budgetBalance{
+    background-color: blueviolet;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    width: 97%;
+    padding: 2% 1.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.balance{
+    background-color: rgb(116, 8, 218);
+    color: white;
+    border-radius: 5px;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bold;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+

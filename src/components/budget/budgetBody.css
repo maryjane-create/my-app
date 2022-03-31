@@ -1,0 +1,52 @@
+
+.budget-body{
+    padding:5%;
+}
+
+.text-intro{
+    width: 35%;
+}
+
+.text-intro h1{
+    color: #4b0090;
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height:28px
+
+}
+
+
+.text-intro p{
+    color: #808080;
+    margin: 0;
+    font-size:12px;
+}
+
+.budgetEntry p{
+    margin: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.budget-entry-container{
+display:  flex;
+    justify-content: space-between;
+}
+
+.budgetEntry input{
+    height: 2rem;
+    width: 100%;
+    background-color: #dadada;
+    border-radius: 3px;
+    outline: unset;
+    color: white;
+    border: unset;
+}
+
+.budget-body-sectioned{
+   width: 100%;
+}
+
+.budget-entry-container button{
+
+}

@@ -1,0 +1,6 @@
+.balance-button button{
+    outline: unset;
+    border: none;
+    padding: 1.8%;
+    background-color: white;
+}
