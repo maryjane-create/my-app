@@ -1,12 +1,23 @@
 
 import Budget from "./Budget";
 import  "./App.css"
+import Authentication from "./components/Authentication";
 
 
 function  App(){
     return(
        <div className="app-container">
-           <Budget/>
+           <Router>
+               <Switch>
+                   <Route exact.path="/">
+                       <Authentication/>
+                   </Route>
+                   <Route path="/dashboard/:identity">
+                       <Budget/>
+                   </Route>
+               </Switch>
+           </Router>
+
        </div>
     )
 }

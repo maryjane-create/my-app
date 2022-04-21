@@ -12,6 +12,13 @@ const  Budget=()=>{
             <BudgetBalance balance={balance} setBalance={setBalance}/>
             <BudgetBody/>
         </div>
+
+        // <div>
+        //     <button placeholder="first name">first name</button>
+        //     <button placeholder="last name"> last name</button>
+        //     <button placeholder="bvn"> Bvn</button>
+        //     <button placeholder="id">id</button>
+        // </div>
     )
 }
 
